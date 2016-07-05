@@ -6,20 +6,44 @@
     <script type="text/javascript" src="app.js"></script>
 
     <link rel="stylesheet" href="stylesheet.css" media="screen" charset="utf-8" />
-    <title>Random GIF Generator</title>
+    <title>GIF and Sticker Generator</title>
   </head>
   <body>
     <header>
-      <h1>Random GIF Generator</h1>
-      <p class="forms button">
-        <div class="randomGifButton">Get Your Random Gif<div/>
-      </p>
+      <h1>GIF and Sticker Generator</h1>
     </header>
 
     <main>
-      <div class="randomGif">
-        <!-- <img src="http://media3.giphy.com/media/3orifdOS6TdxHP7l5u/giphy.gif"> -->
+      <ul>
+        <li class="center">
+          <form id="gifForm">
+            <!-- <input type="text" name="randomGif" id="randomGif" placeholder="Add a Tag! (Optional)" /> -->
+            <div class="randomGifButton inline">
+              <p>Get your Ramdom GIF</p>
+            </div>
+          </form>
+        </li>
+        <li class="center underline">
+          <form id="stickerForm">
+            <!-- <input type="text" name="randomSticker" id="randomSticker" placeholder="Add a Tag! (Optional)" /> -->
+            <div class="randomStickerButton inline">
+              <p>Get your Ramdom Sticker</p>
+            </div>
+          </form>
+        </li>
+        <!-- <li class="center">
+          <form id="searchForm">
+            <input type="text" name="search" id="search" placeholder="Returns five GIFs at a time" />
+            <div class="searchGifButton inline">
+              <p>Search for a GIF</p>
+            </div>
+          </form>
+        </li> -->
+      </ul>
+
+      <div class="randomGif center">
       </div>
+
     </main>
 
   </body>

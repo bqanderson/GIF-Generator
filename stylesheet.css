@@ -60,13 +60,30 @@ h1 {
 	font-size: 1.5em;
 	font-weight: lighter;
 	letter-spacing: 2px;
-	border-bottom: 1px solid #000;
+	background: burlywood;
+	padding: 5px 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.center {
+	margin: 0 auto;
+	width: 85%;
+	text-align: center;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.gif {
+	display: block;
 }
 
 .randomGifButton {
     font-size: 1em;
     text-align: center;
-		width: 25%;
+		width: 150px;
     padding: 5px 25px;
     background: skyblue;
     color: midnightblue;
@@ -74,7 +91,7 @@ h1 {
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin: 15px auto;
 }
 
 .randomGifButton:hover {
@@ -84,4 +101,76 @@ h1 {
 
 .randomGif {
 	margin-top: 15px;
+}
+
+.randomStickerButton {
+    font-size: 1em;
+    text-align: center;
+		width: 150px;
+    padding: 5px 25px;
+    background: skyblue;
+    color: midnightblue;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+.randomStickerButton:hover {
+  background: mediumblue;
+  color: #fff;
+}
+
+input[type=text] {
+    padding:5px;
+    border:2px solid skyblue;
+		width: 200px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+		margin: 15px auto;
+}
+
+::-webkit-input-placeholder {
+	color: skyblue;
+}
+
+.searchGifButton {
+	font-size: 1em;
+	text-align: center;
+	width: 150px;
+	padding: 5px 25px;
+	background: skyblue;
+	color: midnightblue;
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin: 15px auto;
+}
+
+
+.searchGifButton:hover {
+  background: mediumblue;
+  color: #fff;
+}
+
+input[type=submit] {
+    font-size: 1em;
+    text-align: center;
+    padding: 5px 25px;
+    background: skyblue;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+		background: mediumblue;
+		color: #fff;
+}
+
+.underline {
+  border-bottom: 1px solid #8C001A;
 }
